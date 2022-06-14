@@ -98,26 +98,29 @@ font-weight: 900;
 
 /* Enter Raffle BTN*/
 .raffleBTN{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 100%;
+ 
+
+
+
 }
 
 
 
 .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
     height: auto;
     width: 50vw;
     font-size: 3.5vmin;
     font-weight: 900;
     background-color: white;
-    border-width: .1px;
+    border:solid black 1px;
     padding:8px;
     border-radius: 2.5px;
     cursor: pointer;
-    background:  White;
     margin-bottom: 7.5vmax;
 }
 
