@@ -160,7 +160,7 @@ line-height: 6vmin; ;
 .box>* {
     flex: 1 1 160px;
     height:auto;
-    min-width:50vmin;
+    min-width:70vmin;
     
     font-size:3.5vmin;
     font-weight: 700;
