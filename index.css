@@ -53,7 +53,7 @@ font-weight: 900;
     #a6f4dc  80%,
      black 100%
   );
-  /* background-size: auto auto; */
+  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
@@ -61,7 +61,7 @@ font-weight: 900;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 3.5s linear infinite;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 @keyframes textclip {
