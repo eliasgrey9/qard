@@ -71,7 +71,7 @@ font-weight: 900;
 }
 /* Hero Text-End */
 .hero-background{
-    
+    text-decoration: none;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -98,9 +98,6 @@ font-weight: 900;
 
 /* Enter Raffle BTN*/
 .raffleBTN{
- 
-
-
 
 }
 
@@ -110,8 +107,6 @@ font-weight: 900;
     display: flex;
     justify-content: center;
     align-items: center;
-  
-
     height: auto;
     width: 50vw;
     font-size: 3.5vmin;
