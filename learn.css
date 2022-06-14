@@ -47,7 +47,7 @@ flex-direction: column;
 }
 
 .contents{
-padding-top: 12vmin;
+padding-top: 20vmin;
 display:block;
 flex-direction: column;
 height: 100%;
