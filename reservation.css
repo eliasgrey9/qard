@@ -46,7 +46,10 @@ line-height: 2;
 .submitForm{
   
     display:flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     height: auto;
     width: 100%;
     
@@ -70,11 +73,12 @@ margin-top:3.75vmin
 .name{
 padding: 3vmin;
 height: 3.5vmin;
-width: 75%;
-
+width: 75vmin;
+overflow: hidden;
 font-weight: 800;
 font-size: 3vmin;
 resize: none;
+
 /* outline: none !important; */
 /* overflow: hidden; */
 
@@ -82,9 +86,8 @@ resize: none;
 .email{
     overflow: hidden;
     height: 3.5vmin;;
-    width: 75%;
+    width: 75vmin;
     padding: 3vmin;
- 
     font-weight: 800;
     font-size: 3vmin;
     resize: none;
@@ -93,6 +96,8 @@ resize: none;
 
 
 .formSendButton{
+display: flex;
+justify-content: center;
 margin-bottom: 10vmin;
 padding: 2vmin 4vmin;
 font-size: 4.5vmin;
