@@ -107,7 +107,8 @@ height:auto;
 width: 75vmin;
 background-color: white;
 padding-top: 3vmin;
-border:solid black 1 px;
+border:solid black 1px;
+color: black;
 }
 
 .formSendButton:hover{
