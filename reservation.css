@@ -46,14 +46,15 @@ line-height: 2;
 .submitForm{
   
     display:flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
     height: auto;
     width: 100%;
-    
-    
+}
+
+.twitterStyle {
+    background-color:#2f2e2e;
+    color:#a6f4dc;    
 }
 
 .nameEmail{
@@ -66,8 +67,6 @@ align-items: center;
 margin-bottom: 2vmin;
 margin-left:.25vmin;
 margin-top:3.75vmin
-
-
 }
 
 .name{
@@ -98,13 +97,14 @@ resize: none;
 .formSendButton{
 display: flex;
 justify-content: center;
+align-items: center;
 margin-bottom: 10vmin;
 padding: 2vmin 4vmin;
 font-size: 4.5vmin;
 font-weight: 900;
 border-radius: .5vmin;
 height:auto;
-width: 75vmin;
+width: 75%;
 background-color: white;
 padding-top: 3vmin;
 border:solid black 1px;
