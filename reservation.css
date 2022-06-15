@@ -102,12 +102,13 @@ height:auto;
 width: 75vmin;
 background-color: white;
 padding-top: 3vmin;
+border:solid black 1 px;
 }
 
 .formSendButton:hover{
     background-color: #2f2e2e;
     color:#a6f4dc;
-    border-color: #a6f4dc;
+    border:solid 1px #a6f4dc;
     cursor: pointer;
 }
 
