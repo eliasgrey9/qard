@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+  
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+color:#a6f4dc;
+text-decoration: none;
+cursor: pointer;
+font-weight: 900;
+}
+/* Navbar */
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:13vh;
+    width:100%;
+    background-color:black;
+    color:white;
+    font-size:4.5vmin;
+    position:fixed;
+    top: 0;
+    z-index: 2;
+    font-weight: 900;
+  
+    }
+
+/* Navbar END */
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.thanks{
+padding-top:40vmin;
+font-size: 6vmin;
+font-weight: 900;
+text-align: center;
+line-height: 2;
+width: 50%;
+}
