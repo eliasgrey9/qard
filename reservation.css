@@ -39,3 +39,111 @@ text-align: center;
 font-size: 5vmin;
 line-height: 2;
 }
+
+
+/* Send us a message */
+
+.submitForm{
+  
+    display:flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    
+    
+}
+
+.nameEmail{
+height: auto;
+width: 100%;
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+margin-bottom: 2vmin;
+margin-left:.25vmin;
+margin-top:3.75vmin
+
+
+}
+
+.name{
+padding: 3vmin;
+height: 3.5vmin;
+width: 75%;
+
+font-weight: 800;
+font-size: 3vmin;
+resize: none;
+/* outline: none !important; */
+/* overflow: hidden; */
+
+}
+.email{
+    overflow: hidden;
+    height: 3.5vmin;;
+    width: 75%;
+    padding: 3vmin;
+ 
+    font-weight: 800;
+    font-size: 3vmin;
+    resize: none;
+    outline: none !important;
+    }
+
+
+.formSendButton{
+margin-bottom: 10vmin;
+padding: 2vmin 4vmin;
+font-size: 4.5vmin;
+font-weight: 900;
+border-radius: .5vmin;
+height:auto;
+width: 75vmin;
+background-color: white;
+padding-top: 3vmin;
+}
+
+.formSendButton:hover{
+    background-color: #2f2e2e;
+    color:#a6f4dc;
+    border-color: #a6f4dc;
+    cursor: pointer;
+}
+
+
+.formTitle{
+ display: flex;   
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+line-height: 2;
+ margin-top:5vmin;
+ margin-bottom: 7.5vmin;
+ font-size: 3.5vmin;
+ font-weight: 900;
+
+}
+
+/* Send us a message END*/
+
+.disclaimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+    font-size: 4.5vmin;
+    font-weight: 900;
+    margin-bottom: 10vmin;
+}
+
+.header{
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    margin-top:25vmin;
+    font-size: 7.5vmin;
+    font-weight: 900;
+}
