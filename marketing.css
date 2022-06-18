@@ -94,6 +94,37 @@ resize: none;
     resize: none;
     outline: none !important;
     }
+    .twitter{
+        overflow: hidden;
+        height: 3.5vmin;;
+        width: 75vmin;
+        padding: 3vmin;
+        font-weight: 800;
+        font-size: 3vmin;
+        resize: none;
+        outline: none !important;
+        }
+        .discord{
+            overflow: hidden;
+            height: 3.5vmin;;
+            width: 75vmin;
+            padding: 3vmin;
+            font-weight: 800;
+            font-size: 3vmin;
+            resize: none;
+            outline: none !important;
+            }
+            
+            .transaction{
+                overflow: hidden;
+                height: 3.5vmin;;
+                width: 75vmin;
+                padding: 3vmin;
+                font-weight: 800;
+                font-size: 3vmin;
+                resize: none;
+                outline: none !important;
+                }
 
 
 .formSendButton{
