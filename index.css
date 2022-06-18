@@ -12,6 +12,7 @@ text-decoration: none;
 cursor: pointer;
 font-weight: 900;
 }
+
 /* Navbar */
 .navbar{
     display:flex;
@@ -123,7 +124,7 @@ font-weight: 900;
 .btn:hover{
 height: auto;
 border-color: #a6f4dc;
-box-shadow: #2f2e2e 1.5px 2px 1.5px 2px;
+box-shadow: #2f2e2e 1.5px 2px 1.5px 2px;  
 background:#2f2e2e; 
 color:#a6f4dc;
 border-width: .3vmin;
